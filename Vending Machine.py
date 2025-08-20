@@ -1,3 +1,6 @@
+# This script simulates a vending machine transaction
+# It lists all of the available options, gives displays based on different outputs, and errors when the incorrect response is inputted
+
 # This lists all of the vending machine locations, names, prices, and associated prices
 items = {
     "A1": {"name": "Doritos", "price": 2.75},
@@ -39,4 +42,5 @@ def vending_machine():
         print("Thank you for your purchase, come again soon!")   # This thanks the customer for their purchase
 
 # This runs the vending machine
+
 vending_machine()
